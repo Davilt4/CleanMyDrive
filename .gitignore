@@ -1,0 +1,37 @@
+# Arquivos de credenciais
+client_secrets.json
+*.env
+
+# Pastas do ambiente virtual
+venv/
+env/
+
+# Arquivos de compilação Python
+__pycache__/
+*.pyc
+
+# Pastas e arquivos gerados por Node.js (se usar)
+node_modules/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do Vim
+*.swp
+*.swo
+
+# Arquivos específicos do macOS e Windows
+.DS_Store
+Thumbs.db
+
+# Arquivos de banco de dados temporários
+*.db
+
+# Resultados de testes
+test-results/
+
+# Arquivos de construção e pacotes comprimidos
+dist/
+build/
+*.tar.gz
+*.zip
