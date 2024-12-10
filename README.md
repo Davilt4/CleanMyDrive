@@ -1,0 +1,1 @@
+## O CleanMyDrive tem como objetivo resolver o problema da desorganização e dificuldade em gerenciar arquivos em um Drive compartilhado.
