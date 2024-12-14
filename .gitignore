@@ -1,6 +1,7 @@
 # Arquivos de credenciais
 client_secrets.json
 *.env
+/config/credentials.json
 
 # Pastas do ambiente virtual
 venv/
@@ -35,3 +36,6 @@ dist/
 build/
 *.tar.gz
 *.zip
+
+
+token.pickle
