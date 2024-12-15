@@ -5,7 +5,7 @@ from google.auth.transport.requests import Request
 import os
 import pickle
 
-# Inicializando a aplicação Flask
+
 app = Flask(__name__, template_folder='templates')
  
 # Caminho para o arquivo de credenciais
@@ -14,7 +14,7 @@ CREDENTIALS_FILE = os.path.join(BASE_DIR, 'config', 'credentials.json')  # Camin
 TOKEN_PICKLE = os.path.join(BASE_DIR, 'token.pickle')  # Caminho para salvar o token de acesso
 
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
-# Configurando a URL de redirecionamento
+
 REDIRECT_URI = 'http://localhost:8000/oauth2callback'
 
 @app.route('/')
@@ -74,8 +74,7 @@ def files_list():
     
     files = results.get('files', [])
     
-    return jsonify(files)  # Retornar a lista de arquivos como JSON
-
+    return jsonify(files) 
 
 if __name__ == "__main__":
     app.run(debug=True, port=8000)

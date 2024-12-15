@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 CREDENTIALS_FILE = os.path.join(BASE_DIR, "config", "credentials.json")
 print(CREDENTIALS_FILE)
 
-# Escopos de acesso que seu app precisa
+# Escopos de acesso
 SCOPES = ["https://www.googleapis.com/auth/drive.metadata.readonly"]
 
 def authenticate():
